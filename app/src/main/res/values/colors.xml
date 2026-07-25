@@ -1,0 +1,7 @@
+<resources>
+    <color name="cam_primary">#2979FF</color>
+    <color name="cam_primary_dark">#0052CC</color>
+    <color name="cam_accent">#00E5FF</color>
+    <color name="cam_background">#0F1115</color>
+    <color name="cam_surface">#1A1D23</color>
+</resources>

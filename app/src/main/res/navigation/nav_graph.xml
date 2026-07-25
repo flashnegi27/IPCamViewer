@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cameraListFragment">
+
+    <fragment
+        android:id="@+id/cameraListFragment"
+        android:name="com.example.ipcamviewer.ui.cameralist.CameraListFragment"
+        android:label="IP Cam Viewer">
+        <action
+            android:id="@+id/action_cameraListFragment_to_addCameraFragment"
+            app:destination="@id/addCameraFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addCameraFragment"
+        android:name="com.example.ipcamviewer.ui.addcamera.AddCameraFragment"
+        android:label="Add Camera" />
+
+</navigation>
