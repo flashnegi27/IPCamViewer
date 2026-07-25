@@ -73,7 +73,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
     // RTSP / ONVIF stream playback (bundles native libs for all ABIs).
-    implementation("org.videolan.android:libvlc-all:3.5.6")
+    implementation("org.videolan.android:libvlc-all:3.6.2")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
